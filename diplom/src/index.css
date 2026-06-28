@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-indigo: #212842; /* Midnight Indigo */
+  --color-cream: #f0e7d5; /* Vanilla Cream */
+  --color-accent: #4f46e5;
+}
+
+/* Дополнительные стили */
+body {
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+.app-container {
+  background: linear-gradient(to bottom right, #f8f5f0, #f0e7d5);
+}
